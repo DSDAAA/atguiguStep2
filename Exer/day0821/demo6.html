@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo6</title>
+</head>
+<body>
+    <h1>LOGIN</h1>
+    <form action="" method="get">
+        用户名:<input type="text" name="uname" id="username" onblur="checkuname()">
+        <span id="username_rs"></span>
+        <br>
+        密码:<input type="password" name=""upass id="password" onblur="checkpass()"><br>
+        <input type="submit" value="Login" onclick="checkLogin()">
+    </form>
+    <script>
+        function checkLogin(){
+            var uname = document.getElementById("username");
+            var upass = document.getElementById("password");
+            if (uname=="123456" && upass=="123456"){
+                document.write("登录成功");
+            }else {
+                document.write("用户名或密码错误");
+            }
+
+        }
+        function checkuname(){
+            var elementById = document.getElementById("username");
+            if(elementById.value.length<6||elementById.value.length>6) {
+                document.getElementById("username_rs").innerText = "用户名要求6-8位";
+            }else {
+                document.getElementById("username_rs").innerText = "√";
+            }
+        }
+        function checkpass(){
+            var elementById = document.getElementById("password");
+            if(elementById.value.length<6||elementById.value.length>6) {
+                document.getElementById("username_rs").innerText = "密码要求6-8位";
+            }else {
+                document.getElementById("username_rs").innerText = "√";
+            }
+        }
+    </script>
+</body>
+</html>
