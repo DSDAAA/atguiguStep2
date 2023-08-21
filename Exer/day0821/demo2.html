@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        do{
+            num1=prompt("请输入第一个数值");
+        }while (isNaN(num1));
+        num1=parseFloat(num1);
+        do{
+            num2=prompt("请输入第二个数值")
+        }while (isNaN(num2));
+        num2=parseFloat(num2);
+        var symbol=prompt("请输入符号(+,,-,*,/):");
+        var res;
+        switch (symbol){
+            case "+":
+                res=num1+num2;
+                break;
+            case "-":
+                res=num1-num2;
+                break;
+            case "*":
+                res=num1*num2;
+            case "/":
+                res=num1/num2;
+                break;
+        }
+        console.log("res="+res);
+    </script>
+</body>
+</html>

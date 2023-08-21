@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function a1() {
+        console.log("a1函数被调用");
+    }
+
+    function a2() {
+        console.log("a(2)函数被调用");
+        return "123";
+    }
+
+    function a3(name, age) {
+        console.log(name + "的年龄是" + age);
+    }
+
+    function a4(num1, num2) {
+        console.log("a4被调用");
+        return num1 + num2;
+    }
+
+</script>
+<input type="button" value="按钮1" onclick="a2()"/>
+</body>
+</html>
