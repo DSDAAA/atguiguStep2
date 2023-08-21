@@ -18,6 +18,5 @@ public class TestThreadRabbitRun {
         Thread thread = new Thread(a);
         thread.start();
     }
-
 }
 

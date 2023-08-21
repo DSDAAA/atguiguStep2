@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var u1 = new Object();
+        u1.age=29;
+        u1.name="张三1";
+        u1.show=function (){
+            console.log(this.name+"的年龄是:"+this.age);
+        }
+        u1.show();
+
+        var u2={
+            age:49,
+            name:"李四3",
+            showdata:function (){
+                console.log(this.name+","+name);
+            }
+        }
+        u2.showdata();
+    </script>
+</body>
+</html>

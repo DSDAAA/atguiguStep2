@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        var names = new Array();
+        names[0]="张三1";
+        names[1]="张三2";
+        names[2]="张三3";
+        names[3]="张三4";
+        names[4]="张三5";
+        names=names.slice(1,3);
+        for(var i=0;i<names.length;i++){
+            console.log(names[i]);
+        }
+        var users=["李四1","李四2"];
+        users.push("李四3");
+        users.slice(1,1,"王五");
+        for(var index in users){
+            console.log(users[index]);
+        }
+    </script>
+</body>
+</html>
