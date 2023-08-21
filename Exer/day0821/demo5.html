@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="name" value="请输入用户名" onfocus="a1()" oublur="b1()">
+<input type="text" placeholder="请输入用户的名字">
+    <script>
+        function a1(){
+            var unameobj = document.getElementById("uname");
+            if(unameobj.value=="请输入用户名"){
+                unameobj.value="";
+            }
+        }
+        function  b1(){
+            var unameobj=document.getElementById("uname");
+            if(unameobj.value.length==0){
+                unameobj.value="请输入用户名";
+            }
+        }
+    </script>
+</body>
+</html>
