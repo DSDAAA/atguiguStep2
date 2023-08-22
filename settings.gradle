@@ -13,4 +13,6 @@ include 'Exer:JDBC'
 findProject(':Exer:JDBC')?.name = 'JDBC'
 include 'Exer:HTMLDay01'
 findProject(':Exer:HTMLDay01')?.name = 'HTMLDay01'
+include 'Exer:demo0822'
+findProject(':Exer:demo0822')?.name = 'demo0822'
 

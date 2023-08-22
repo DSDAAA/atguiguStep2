@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<students>
+    <student sid="1001">
+        <stuname>张三</stuname>
+        <sage>20</sage>
+    </student>
+</students>

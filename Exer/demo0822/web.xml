@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+ 从控制台数输入url-pattern的值，
+ 根据输入的url-pattern的值找到和它匹配的的servlet-class,并输出。
+ url-pattern是如何匹配servlet-class
+  匹配规则
+-->
+<web-app>
+    <servlet>
+        <servlet-name>aa</servlet-name>
+        <servlet-class>
+            com.atguigu.demo.ServletA
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>aa</servlet-name>
+        <url-pattern>/testa</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>bb</servlet-name>
+        <servlet-class>
+            com.atguigu.demo.ServletB
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>bb</servlet-name>
+        <url-pattern>/testb</url-pattern>
+    </servlet-mapping>
+
+</web-app>

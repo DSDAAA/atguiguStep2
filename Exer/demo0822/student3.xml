@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<students>
+    <student>
+        <stuid>1001</stuid>
+        <stuname>张三</stuname>
+        <stusex>男</stusex>
+    </student>
+    <student>
+        <stuid>1002</stuid>
+        <stuname>张三2</stuname>
+        <stusex>女</stusex>
+    </student>
+    <student>
+        <stuid>1003</stuid>
+        <stuname>李四</stuname>
+        <stusex>男</stusex>
+    </student>
+</students>

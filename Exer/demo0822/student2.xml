@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<students>
+    <stu sid="1001" sname="张三1" sage="19"></stu>
+    <stu sid="1002" sname="张三2" sage="19"></stu>
+    <stu sid="1003" sname="张三3" sage="19"></stu>
+    <stu sid="1004" sname="张三4" sage="19"></stu>
+</students>
